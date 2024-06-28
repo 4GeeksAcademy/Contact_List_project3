@@ -1,0 +1,48 @@
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img-square-wrapper {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1.25rem;
+}
+
+.card-content {
+    flex: 1;
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-edit {
+    background-color: #477eac;
+    color: #ffffff;
+}
+
+.btn-delete {
+    background-color: #c44f4f;
+    color: #ffffff;
+}
